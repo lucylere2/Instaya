@@ -21,7 +21,8 @@ function App() {
   
   return (
     <BrowserRouter>
-    <Navbar bg="light" expand="lg">
+    <Header/>
+    <Navbar bg="dark" variant="dark" fixed="top">
       <Container>
         <Navbar.Brand as={Link} to="/">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
