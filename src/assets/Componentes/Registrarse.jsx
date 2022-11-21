@@ -6,7 +6,7 @@ export default function Registrarse (){
         alert("Registro Exitoso :)")
     }
     return(
-        <Form className='m-5'>
+        <Form className='m-10'>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Identificacion</Form.Label>
                 <Form.Control type="number" placeholder="Ingrese su identificacion" />
