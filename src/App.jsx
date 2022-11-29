@@ -15,8 +15,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-import Header from './assets/Componentes/Header'
-
+import Header from './assets/Componentes/Header';
+import FooterF from './assets/Componentes/FooterF';
 
 
 function App() {
@@ -49,9 +49,9 @@ function App() {
         <Route path='/quienessomos' element={<QuienesSomos/>}/>
         <Route path='*' element={<h1>Not Found</h1>}/>
       </Routes>
-      <Footer> 
+      <FooterF/> 
 
-      </Footer>
+      
     </BrowserRouter>    
   )
 }
